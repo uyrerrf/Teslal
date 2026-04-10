@@ -1,0 +1,47 @@
+/* Minimalist Tesla Theme */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero {
+    padding: 50px;
+    background: linear-gradient(to right, #0070f3, #0070f3);
+    color: #fff;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0070f3;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.features div {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}
