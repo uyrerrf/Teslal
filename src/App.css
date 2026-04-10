@@ -1,0 +1,50 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #111;
+    color: #fff;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0070f3;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.features div {
+    width: 48%;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.admin-code {
+    font-size: 1.2em;
+    color: #0070f3;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0050cc;
