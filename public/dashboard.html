@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>⚡ Tesla Owners Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #000; color: #fff; }
+        .dashboard { padding: 50px; text-align: center; }
+        .admin-code { font-size: 2em; color: #0070f3; }
+        .withdraw-btn { margin-top: 30px; padding: 15px 30px; background: #0070f3; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>🔐 Tesla Owners Dashboard</h1>
+        <p><strong>Admin Code:</strong> <span class="admin-code">ELON</span></p>
+        <p>Unlocked funds: $300,000 (free withdrawal)</p>
+        <button onclick="withdraw()">Free Withdraw</button>
+    </div>
+
+    <script>
+        function withdraw() {
+            alert("Withdrawal successful. Your $300K is now in your account.");
+            window.location.href = "https://tesla-owners.com/";
+        }
+    </script>
+</body>
+</html>
